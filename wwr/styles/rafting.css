@@ -94,7 +94,7 @@ nav a:hover {
     font-size: 2.2rem;
 }
 
-.about-hero article {
+.about-hero .hero-message {
     position: absolute;
     bottom: 25px;
     left: 30px;
@@ -103,7 +103,7 @@ nav a:hover {
     padding: 1rem;
 }
 
-.about-hero article img {
+.about-hero .hero-message img {
     float: right;
     width: 170px;
     margin-left: 1rem;
