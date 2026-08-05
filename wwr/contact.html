@@ -73,7 +73,7 @@
 
             <div class="form-container">
 
-                <form method="post" action="#">
+                <form id="contactForm" method="post" action="#">
 
                     <!-- Name -->
 
@@ -199,6 +199,32 @@
             </a>
         </nav>
     </footer>
+
+    <div id="successOverlay" class="overlay hidden">
+
+        <div class="overlay-box">
+
+            <h2>✓ Message Received</h2>
+
+            <p>
+                Thank you for contacting Rapids Adventure Rafting.
+            </p>
+
+            <p>
+                We've received your inquiry. Please check your email inbox
+                (and your spam folder if necessary) for our confirmation
+                message.
+            </p>
+
+            <p id="countdown">
+                This window will close in 10 seconds.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="scripts/contact.js"></script>
 
 </body>
 

@@ -630,6 +630,96 @@ button:hover {
     background-color: #f8f9fa;
 }
 
+/* ==========================================
+   SUCCESS OVERLAY
+========================================== */
+
+.overlay {
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, .65);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 9999;
+
+}
+
+.hidden {
+
+    display: none;
+
+}
+
+.overlay-box {
+
+    width: 90%;
+
+    max-width: 550px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+
+    animation: popup .35s ease;
+
+}
+
+.overlay-box h2 {
+
+    color: #0d6efd;
+
+    margin-bottom: 20px;
+
+}
+
+.overlay-box p {
+
+    margin-bottom: 15px;
+
+}
+
+#countdown {
+
+    font-weight: bold;
+
+    color: #d9534f;
+
+}
+
+@keyframes popup {
+
+    from {
+
+        transform: scale(.8);
+
+        opacity: 0;
+
+    }
+
+    to {
+
+        transform: scale(1);
+
+        opacity: 1;
+
+    }
+
+}
+
 /* Responsive */
 
 @media(max-width:768px) {
